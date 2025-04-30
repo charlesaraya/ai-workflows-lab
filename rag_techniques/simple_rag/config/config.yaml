@@ -1,0 +1,19 @@
+# === General Settings ===
+project_name: simple_rag_customer_data
+input_file: "./data/customer_data.csv"
+
+# === Prompt Configuration ===
+prompt_template: "./prompts/prompt.txt"
+query: "which company does sheryl Baxter work for?"
+temperature: 0.7
+
+# === Model Settings ===
+llm_model: gpt-3.5-turbo-0125
+api_key_name: "OPENAI_API_KEY"
+embedding_model: text-embedding-ada-002
+
+# === Retrieval ===
+vectorstore_path: "vectorstore"
+top_k: 10
+chunk_size: 1000
+chunk_overlap: 200
