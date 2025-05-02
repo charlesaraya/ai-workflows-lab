@@ -3,3 +3,5 @@
 *.cpython*
 *.faiss
 *.pkl
+vectorstore
+*.txt

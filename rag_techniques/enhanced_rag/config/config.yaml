@@ -1,0 +1,20 @@
+# === General Settings ===
+project_name: simple_rag_customer_data
+input_file: "./data/documents_urls.txt"
+
+# === Prompt Configuration ===
+prompt_template: "./prompts/prompt.txt"
+temperature: 0
+
+# === Model Settings ===
+llm_model: llama-3.1-8b-instant
+llm_api_key_name: "GROQ_API_KEY"
+embedding_api_key_name: "COHERE_API_KEY"
+embedding_model: embed-english-v3.0
+
+# === Retrieval ===
+db_path: "vectorstore"
+search_type: "similarity"
+top_k: 10
+chunk_size: 1000
+chunk_overlap: 200
