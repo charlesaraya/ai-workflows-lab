@@ -5,3 +5,5 @@
 *.pkl
 vectorstore
 *.txt
+.env
+.ipynb_checkpoints
